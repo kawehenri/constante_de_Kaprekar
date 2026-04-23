@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Entrega - Rotina de Kaprekar</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; margin: 36px; color: #111; line-height: 1.45; }
+    h1, h2, h3 { margin-bottom: 8px; }
+    h1 { font-size: 24px; }
+    h2 { font-size: 18px; margin-top: 24px; border-bottom: 1px solid #ccc; padding-bottom: 4px; }
+    p { margin: 8px 0; }
+    .capa { text-align: center; margin-top: 120px; margin-bottom: 120px; }
+    .campo { padding: 8px 10px; background: #f4f4f4; border-left: 4px solid #2a5bd7; margin: 10px 0; word-break: break-all; }
+    .small { font-size: 12px; color: #444; }
+    ul { margin-top: 6px; }
+    .quebra { page-break-before: always; }
+    img { max-width: 100%; border: 1px solid #ddd; padding: 4px; box-sizing: border-box; }
+    .assinatura { margin-top: 80px; }
+  </style>
+</head>
+<body>
+  <section class="capa">
+    <h1>ATIVIDADE AVALIATIVA - PONTUACAO EXTRA</h1>
+    <p><strong>Disciplina:</strong> __________________________________________</p>
+    <p><strong>Professor(a):</strong> ________________________________________</p>
+    <p><strong>Aluno(a):</strong> _____________________________________________</p>
+    <p><strong>Turma:</strong> _____________________ <strong>Data:</strong> ____/____/______</p>
+    <h2 style="border: 0; margin-top: 40px;">Rotina de Kaprekar (6174 e 495)</h2>
+    <p>Implementacao com validacoes formais e manipulacao aritmetica de digitos</p>
+  </section>
+
+  <section class="quebra">
+    <h2>1. Identificacao do repositorio</h2>
+    <p>Substitua o campo abaixo pelo link do seu repositorio publico no GitHub.</p>
+    <div class="campo"><strong>LINK DO GITHUB:</strong> COLE_AQUI_O_LINK_DO_REPOSITORIO</div>
+    <p class="small">Exemplo: https://github.com/seu-usuario/kaprekar-routine-analyzer</p>
+  </section>
+
+  <section>
+    <h2>2. Objetivo da atividade</h2>
+    <p>Desenvolver um programa que recebe um numero e aplica iterativamente a Rotina de Kaprekar, exibindo cada etapa ate atingir a constante correspondente: 6174 para numeros de 4 digitos e 495 para numeros de 3 digitos.</p>
+  </section>
+
+  <section>
+    <h2>3. Regras implementadas</h2>
+    <ul>
+      <li>Validacao de tipo: entrada deve ser numero inteiro.</li>
+      <li>Validacao de sinal: entrada deve ser positiva.</li>
+      <li>Validacao de faixa: 0000-9999 (4 digitos) e 000-999 (3 digitos).</li>
+      <li>Validacao de repeticao: bloqueio quando ha 3 ou mais digitos iguais.</li>
+      <li>Construcao de NDC e NDD por operacoes aritmeticas.</li>
+      <li>Subtracao NDD - NDC e repeticao ate atingir a constante.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Restricoes tecnicas atendidas</h2>
+    <p>A manipulacao dos digitos foi realizada com operacoes aritmeticas (divisao inteira e resto da divisao), comparacoes logicas e estruturas de repeticao, sem depender de bibliotecas externas para o calculo.</p>
+  </section>
+
+  <section>
+    <h2>5. Evidencias de funcionamento</h2>
+    <p><strong>Caso 4 digitos:</strong> entrada 3524 atinge 6174 em 3 iteracoes.</p>
+    <p><strong>Caso 3 digitos:</strong> entrada 352 atinge 495 em 4 iteracoes.</p>
+    <p><strong>Casos invalidos:</strong> entradas com tipo invalido, fora da faixa ou com repeticao excessiva sao bloqueadas com mensagem de erro.</p>
+  </section>
+
+  <section class="quebra">
+    <h2>6. Fluxograma da solucao</h2>
+    <p>Fluxograma utilizado na apresentacao oral:</p>
+    <img src="diagrama_fluxo.png" alt="Fluxograma da rotina de Kaprekar" />
+  </section>
+
+  <section>
+    <h2>7. Conclusao</h2>
+    <p>O projeto foi concluido com implementacao funcional, aderente ao edital e com documentacao para reproducao em ambiente local e Google Colab.</p>
+  </section>
+
+  <section class="assinatura">
+    <p>______________________________________________</p>
+    <p>Assinatura do(a) aluno(a)</p>
+  </section>
+</body>
+</html>
