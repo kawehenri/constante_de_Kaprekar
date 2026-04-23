@@ -8,5 +8,15 @@
     "resumo": "Iteracao 1: 8200 - 0028 = 8172",
     "criado_em": "2026-04-23T10:29:40",
     "observacao": ""
+  },
+  {
+    "id": 2,
+    "numero": 156,
+    "digitos": 3,
+    "sucesso": true,
+    "iteracoes": 1,
+    "resumo": "Iteracao 1: 651 - 156 = 495",
+    "criado_em": "2026-04-23T10:32:32",
+    "observacao": ""
   }
 ]
